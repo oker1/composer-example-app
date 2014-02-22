@@ -1,0 +1,21 @@
+{
+    "name": "oker1/example-app",
+    "license": "MIT",
+    "description": "Example app for composer workshop",
+    "authors": [
+        {
+            "name": "Zsolt Takacs",
+            "email": "zsolt@takacs.cc"
+        }
+    ],
+    "repositories": [
+        { "packagist": false },
+        {
+            "type": "vcs",
+            "url": "https://github.com/oker1/composer-example-package.git"
+        }
+    ],
+    "require": {
+        "oker1/example-package": "1.0.*"
+    }
+}
